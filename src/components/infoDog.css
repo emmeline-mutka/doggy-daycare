@@ -1,0 +1,64 @@
+.info-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 25em;
+    color: #ffffff;
+}
+
+.dog-image {
+    width: 1em;
+}
+
+.dog-image img {
+    width: 20em;
+    object-fit: contain;
+    border-radius: 1em;
+}
+
+.dog-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.dog-row1 {
+    margin-right: 1em;
+}
+
+.dog-column {
+    text-align: start;
+}
+
+.owner-info {
+    text-align: start;
+    margin-top: 1.2em;
+}
+
+.back-btn {
+    position: absolute;
+    left: 0.2em;
+}
+
+.back-btn button {
+    background-color: transparent;
+    border: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    padding-left: 5em;
+    font-size: 0.8em;
+}
+
+.arrow {
+    border: solid #ffffff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 0.4em;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+

@@ -1,23 +1,47 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
+import Welcome from './components/Welcome';
+import DogsList from './components/DogsList';
+import InfoDog from './components/InfoDog';
+
 
 function App() {
+
   return (
-    <div className="App">
+
+    <div className="app-container">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Router basename={process.env.PUBLIC_URL}>
+          <div className="husky-banner">
+          <img src="img/husky-banner.jpg" alt="" />
+          </div>
+            <div className="header-title">
+              <Link to="welcome"><button>Hundkojan</button></Link>
+            </div>
+        </Router>
       </header>
+      <main>
+      <div className="App">
+            <Router>
+              <Switch>
+                <Route exact path="/">
+                  <Welcome />
+                </Route>
+                <Route path="/welcome">
+                  <Welcome />
+                </Route>
+                <Route path="/dogslist">
+                  <DogsList />
+                </Route>
+                <Route path="/infodog">
+                  <InfoDog />
+                </Route>
+              </Switch>
+            </Router>
+          </div>
+      </main>
     </div>
   );
 }

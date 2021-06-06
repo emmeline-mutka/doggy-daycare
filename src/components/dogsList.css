@@ -1,0 +1,46 @@
+.dogs-content {
+    display: flex;
+    position: absolute;
+    top: 30em;
+    left: 7.5em;
+    color: #ffffff;
+}
+
+.dogs-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.dogs-container { 
+  display: flex;
+  flex-direction: column;
+  margin-left: 15em;
+  margin-bottom: 5em;
+}
+
+.dogs-image {
+    width: 1em;
+}
+
+.dogs-image img {
+    height: 10em;
+    object-fit: contain;
+    border-radius: 1em;
+}
+
+.dogs-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.dogs-name {
+    margin-right: 1em;
+}
+
+.check-green {
+    color: #008000;
+}
+
+.check-red {
+    color: #ff0000;
+}
