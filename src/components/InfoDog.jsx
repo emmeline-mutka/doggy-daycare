@@ -1,36 +1,69 @@
 import './infoDog.css';
-import { HashRouter as Route, Link } from "react-router-dom";
+import { HashRouter as Route, Link, useLocation } from "react-router-dom";
+import { useEffect, useState } from 'react';
 
 const InfoDog = () => {
 
-    return (
+    const [foundDog, setFoundDog] = useState([]);
 
-    <div className="info-content">
-       <div className="dogs-container">
-                <div className="dog-image">
-                    <img src="img/siberian-husky.jpg" alt="" />
-                </div>
-                <div className="dog-row">    
-                    <p className="dog-row1">{/*Namn:*/} Blixten</p> 
-                    <p className="dog-row2">{/*Chipnr:*/} EMD261122</p>
-                </div>
-                <div className="dog-column">
-                    <p className="dog-column">{/*Kön:*/} Hane</p>
-                    <p className="dog-column">{/*Ålder:*/} 3 år</p>
-                </div>
-                <div className="owner-info">
-                    <p>Ägare: Glader Gladsson</p>
-                    <p>Telefonnummer: 070 123 45 67</p>
-                </div>
-            </div>
-        <div className="back-btn">
-            <Link to="/dogslist">
-                <button><i class="arrow left"></i>
-                Tillbaka till listan</button></Link>
-        </div>
-        
-    </div>
+    let location = useLocation();
+
+    let chipNumber = location.pathname.slice(-9);
+
+    console.log('url: ', chipNumber);
+
+    useEffect(() => {
+        let url = `https://api.jsonbin.io/b/6087ced8f6655022c46cff44/1`;
     
+        fetch(url)
+        .then(data => data.json()) 
+        .then(data => setFoundDog(data.find(specificDog => specificDog.chipNumber === chipNumber)))
+  }, []);
+
+    console.log('Found the dog', foundDog);
+
+    let getGender = () => {
+        if (foundDog.sex == 'female') {
+            return (
+                <p className="dog-column">Hona</p>
+            )
+        } else if (foundDog.sex == 'male') {
+            return (
+                <p className="dog-column">Hane</p>
+            )
+        }
+    }
+    return (
+        <div className="info-content">
+            {foundDog.owner ?
+                <div className="dogs-container">
+                    <div className="dog-image">
+                        <img src={foundDog.img} alt="" />
+                    </div>
+                    <div className="dog-row">    
+                        <p className="dog-row1">{foundDog.name}</p> 
+                        <p className="dog-row2">{foundDog.chipNumber}</p>
+                    </div>
+                    <div className="dog-column">
+                        {getGender()}
+                        <p className="dog-column">{foundDog.age} år</p>
+                    </div>
+                    <div className="owner-info">
+                        <p>Ägare: {foundDog.owner.name} {foundDog.owner.lastName}</p>
+                        <p>Telefonnummer: {foundDog.owner.phoneNumber}</p>
+                    </div>
+                </div>
+            :
+            <div className="dogs-container">
+                <p>Loading...</p>
+            </div>
+            }  
+            <div className="back-btn">
+                <Link to="/dogslist">
+                    <button><i className="arrow left"></i>
+                    Tillbaka till listan</button></Link>
+            </div>
+        </div>
     )
 }
 

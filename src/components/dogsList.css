@@ -24,7 +24,8 @@
 
 .dogs-image img {
     height: 10em;
-    object-fit: contain;
+    width: 10em;
+    object-fit: cover;
     border-radius: 1em;
 }
 
