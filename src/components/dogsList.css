@@ -14,7 +14,7 @@
 .dogs-container { 
   display: flex;
   flex-direction: column;
-  margin-left: 13em;
+  margin-left: 13.5em;
   margin-bottom: 5em;
 }
 
