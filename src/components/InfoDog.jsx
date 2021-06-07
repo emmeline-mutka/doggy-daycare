@@ -8,7 +8,7 @@ const InfoDog = () => {
 
     let location = useLocation();
 
-    let chipNumber = location.pathname.slice(-9);
+    let chipNumber = location.pathname.slice(9);
 
     console.log('url: ', chipNumber);
 
@@ -45,6 +45,7 @@ const InfoDog = () => {
                         <p className="dog-row2">{foundDog.chipNumber}</p>
                     </div>
                     <div className="dog-column">
+                        <p className="dog-breed">{foundDog.breed}</p>
                         {getGender()}
                         <p className="dog-column">{foundDog.age} år</p>
                     </div>

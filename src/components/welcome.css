@@ -9,28 +9,56 @@
     left: 10em;
     margin: 0;
 }
-.welcome-content p {
+.welcome-text {
     align-self: center;
     margin: 0em;
     padding: 0em;
     width: 100vh;
 }
 
+.welcome-text-smaller {
+    margin-top: 1em;
+    font-size: 0.8em;
+    width: 100vh;
+}
 
-.welcome-text :link {
-    margin-top: 2em;
+.welcome-click {
+    margin-top: 1em;
     padding: 0;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    font-weight: bold;
     cursor: pointer;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.welcome-click::before {
+    content: attr(data-title);
+    background: linear-gradient(#000000e1, #12e9de );
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    transition: all 1s ease-in-out;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.welcome-click:hover::before {
+    width: 100%;
 }
 
 a:link {
     text-decoration: none;
     color: #ffffff;
-}
-
-a:hover {
-    transform: translateY(0.1em);
 }
   
 a:visited {

@@ -32,6 +32,10 @@
     text-align: start;
 }
 
+.dog-breed {
+    text-transform: capitalize;
+}
+
 .owner-info {
     text-align: start;
     margin-top: 1.2em;
