@@ -17,12 +17,23 @@
 }
 
 
-.welcome-button button {
+.welcome-text :link {
     margin-top: 2em;
     padding: 0;
-    color: #ffffff;
     font-size: 0.6em;
-    background-color: transparent;
-    border: transparent;
     cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    transform: translateY(0.1em);
+}
+  
+a:visited {
+    text-decoration: none;
+    color: #ffffff;
 }

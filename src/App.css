@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   max-width: 80vw;
   text-align: center;
-  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
   padding: 0; 
 }
 
@@ -26,13 +26,14 @@
 
 .header-title button {
   position: absolute;
-  top: 3.45em;
-  right: 1em;
+  top: 3.8em;
+  right: 0.5em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   background-color: transparent;
   border: transparent;
   cursor: pointer;
   font-size: 2em;
-  font-family: fantasy;
   color: #ffffff;
 }
 
@@ -42,7 +43,7 @@
 
 .husky-banner {
   position: absolute;
-  top: 0.1em;
+  top: 0.5em;
   right: 0.2em;
   height: 8em;
 }

@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 8em;
-    left: 25em;
+    top: 10em;
+    left: 10em;
     color: #ffffff;
 }
 
@@ -12,8 +12,9 @@
 }
 
 .dog-image img {
+    height: 20em;
     width: 20em;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 1em;
 }
 
@@ -38,13 +39,14 @@
 
 .back-btn {
     position: absolute;
-    left: 0.2em;
+    right: 18em;
 }
 
 .back-btn button {
     background-color: transparent;
     border: transparent;
     color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
     padding-left: 5em;
     font-size: 0.8em;

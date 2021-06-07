@@ -1,8 +1,8 @@
 .dogs-content {
     display: flex;
     position: absolute;
-    top: 30em;
-    left: 7.5em;
+    top: 10em;
+    left: -10em;
     color: #ffffff;
 }
 
@@ -23,8 +23,8 @@
 }
 
 .dogs-image img {
-    height: 10em;
-    width: 10em;
+    height: 13.5em;
+    width: 13.5em;
     object-fit: cover;
     border-radius: 1em;
 }

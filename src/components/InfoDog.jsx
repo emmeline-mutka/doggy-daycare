@@ -55,13 +55,13 @@ const InfoDog = () => {
                 </div>
             :
             <div className="dogs-container">
-                <p>Loading...</p>
+                <p>Hämtar information...</p>
             </div>
             }  
             <div className="back-btn">
                 <Link to="/dogslist">
                     <button><i className="arrow left"></i>
-                    Tillbaka till listan</button></Link>
+                    Tillbaka</button></Link>
             </div>
         </div>
     )
