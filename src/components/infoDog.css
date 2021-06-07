@@ -7,6 +7,13 @@
     color: #ffffff;
 }
 
+.dog-container { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 15em;
+    margin-bottom: 5em;
+  }
+
 .dog-image {
     width: 1em;
 }

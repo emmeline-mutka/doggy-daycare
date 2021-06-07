@@ -36,9 +36,9 @@ const InfoDog = () => {
     return (
         <div className="info-content">
             {foundDog.owner ?
-                <div className="dogs-container">
+                <div className="dog-container">
                     <div className="dog-image">
-                        <img src={foundDog.img} alt="" />
+                        <img src={foundDog.img} alt="dog" />
                     </div>
                     <div className="dog-row">    
                         <p className="dog-row1">{foundDog.name}</p> 
@@ -55,7 +55,7 @@ const InfoDog = () => {
                     </div>
                 </div>
             :
-            <div className="dogs-container">
+            <div className="dog-container">
                 <p>Hämtar information...</p>
             </div>
             }  

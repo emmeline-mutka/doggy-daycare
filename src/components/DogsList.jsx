@@ -18,7 +18,7 @@ const DogsList = (props) => {
 
             <div className="dogs-container" key={key}>
                 <div className="dogs-image">
-                    <Link to={"infodog/" + dog.chipNumber}><img src={dog.img} alt="" /></Link>
+                    <Link to={"infodog/" + dog.chipNumber}><img src={dog.img} alt="dog" /></Link>
                 </div>
                 <div className="dogs-row">    
                     <p className="dogs-name">{dog.name}</p>
