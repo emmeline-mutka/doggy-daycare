@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/emmeline-mutka.github.io/hundkojan/static/css/main.3beedf09.chunk.css",
-    "main.js": "/emmeline-mutka.github.io/hundkojan/static/js/main.8242066c.chunk.js",
-    "main.js.map": "/emmeline-mutka.github.io/hundkojan/static/js/main.8242066c.chunk.js.map",
-    "runtime-main.js": "/emmeline-mutka.github.io/hundkojan/static/js/runtime-main.3dde4b95.js",
-    "runtime-main.js.map": "/emmeline-mutka.github.io/hundkojan/static/js/runtime-main.3dde4b95.js.map",
-    "static/js/2.c243ffbc.chunk.js": "/emmeline-mutka.github.io/hundkojan/static/js/2.c243ffbc.chunk.js",
-    "static/js/2.c243ffbc.chunk.js.map": "/emmeline-mutka.github.io/hundkojan/static/js/2.c243ffbc.chunk.js.map",
-    "static/js/3.80cb29d1.chunk.js": "/emmeline-mutka.github.io/hundkojan/static/js/3.80cb29d1.chunk.js",
-    "static/js/3.80cb29d1.chunk.js.map": "/emmeline-mutka.github.io/hundkojan/static/js/3.80cb29d1.chunk.js.map",
-    "index.html": "/emmeline-mutka.github.io/hundkojan/index.html",
-    "static/css/main.3beedf09.chunk.css.map": "/emmeline-mutka.github.io/hundkojan/static/css/main.3beedf09.chunk.css.map",
-    "static/js/2.c243ffbc.chunk.js.LICENSE.txt": "/emmeline-mutka.github.io/hundkojan/static/js/2.c243ffbc.chunk.js.LICENSE.txt"
+    "main.css": "//hundkojan/static/css/main.3beedf09.chunk.css",
+    "main.js": "//hundkojan/static/js/main.4f075215.chunk.js",
+    "main.js.map": "//hundkojan/static/js/main.4f075215.chunk.js.map",
+    "runtime-main.js": "//hundkojan/static/js/runtime-main.0068b49a.js",
+    "runtime-main.js.map": "//hundkojan/static/js/runtime-main.0068b49a.js.map",
+    "static/js/2.c243ffbc.chunk.js": "//hundkojan/static/js/2.c243ffbc.chunk.js",
+    "static/js/2.c243ffbc.chunk.js.map": "//hundkojan/static/js/2.c243ffbc.chunk.js.map",
+    "static/js/3.80cb29d1.chunk.js": "//hundkojan/static/js/3.80cb29d1.chunk.js",
+    "static/js/3.80cb29d1.chunk.js.map": "//hundkojan/static/js/3.80cb29d1.chunk.js.map",
+    "index.html": "//hundkojan/index.html",
+    "static/css/main.3beedf09.chunk.css.map": "//hundkojan/static/css/main.3beedf09.chunk.css.map",
+    "static/js/2.c243ffbc.chunk.js.LICENSE.txt": "//hundkojan/static/js/2.c243ffbc.chunk.js.LICENSE.txt",
+    "static/media/husky-banner.8e04fd0d.jpg": "//hundkojan/static/media/husky-banner.8e04fd0d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3dde4b95.js",
+    "static/js/runtime-main.0068b49a.js",
     "static/js/2.c243ffbc.chunk.js",
     "static/css/main.3beedf09.chunk.css",
-    "static/js/main.8242066c.chunk.js"
+    "static/js/main.4f075215.chunk.js"
   ]
 }
