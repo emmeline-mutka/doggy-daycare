@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/emmeline-mutka.github.io/hundkojan/static/css/main.3beedf09.chunk.css",
-    "main.js": "/emmeline-mutka.github.io/hundkojan/static/js/main.6f177986.chunk.js",
-    "main.js.map": "/emmeline-mutka.github.io/hundkojan/static/js/main.6f177986.chunk.js.map",
+    "main.js": "/emmeline-mutka.github.io/hundkojan/static/js/main.8242066c.chunk.js",
+    "main.js.map": "/emmeline-mutka.github.io/hundkojan/static/js/main.8242066c.chunk.js.map",
     "runtime-main.js": "/emmeline-mutka.github.io/hundkojan/static/js/runtime-main.3dde4b95.js",
     "runtime-main.js.map": "/emmeline-mutka.github.io/hundkojan/static/js/runtime-main.3dde4b95.js.map",
     "static/js/2.c243ffbc.chunk.js": "/emmeline-mutka.github.io/hundkojan/static/js/2.c243ffbc.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3dde4b95.js",
     "static/js/2.c243ffbc.chunk.js",
     "static/css/main.3beedf09.chunk.css",
-    "static/js/main.6f177986.chunk.js"
+    "static/js/main.8242066c.chunk.js"
   ]
 }
