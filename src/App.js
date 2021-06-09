@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Welcome from './components/Welcome';
 import DogsList from './components/DogsList';
 import InfoDog from './components/InfoDog';
+import bannerImg from './img/husky-banner.jpg';
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
       <header className="App-header">
         <Router basename={process.env.PUBLIC_URL}>
           <div className="husky-banner">
-          <img src="img/husky-banner.jpg" alt="" />
+          <img src={bannerImg} alt="dog" />
           </div>
             <div className="header-title">
               <Link to="/welcome"><button>Hundkojan</button></Link>
