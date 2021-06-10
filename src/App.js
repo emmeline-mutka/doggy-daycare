@@ -33,18 +33,15 @@ function App() {
 
     <div className="app-container">
       <header className="App-header">
-        <Router basename={process.env.PUBLIC_URL}>
           <div className="husky-banner">
             <img src={bannerImg} alt="dog" />
           </div>
           <div className="header-title">
             <Link to="/welcome"><button>Hundkojan</button></Link>
           </div>
-        </Router>
       </header>
       <main>
         <div className="App">
-          <Router>
             <Switch>
               <Route exact path="/">
                 <Welcome />
@@ -59,7 +56,6 @@ function App() {
                 <InfoDog />
               </Route>
             </Switch>
-          </Router>
         </div>
       </main>
     </div>
