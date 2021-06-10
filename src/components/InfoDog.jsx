@@ -23,11 +23,11 @@ const InfoDog = () => {
     console.log('Found the dog', foundDog);
 
     let getGender = () => {
-        if (foundDog.sex == 'female') {
+        if (foundDog.sex === 'female') {
             return (
                 <p className="dog-column">Hona</p>
             )
-        } else if (foundDog.sex == 'male') {
+        } else if (foundDog.sex === 'male') {
             return (
                 <p className="dog-column">Hane</p>
             )
