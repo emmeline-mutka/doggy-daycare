@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hundkojan/static/css/main.ead95135.chunk.css",
-    "main.js": "/hundkojan/static/js/main.0e75051e.chunk.js",
-    "main.js.map": "/hundkojan/static/js/main.0e75051e.chunk.js.map",
+    "main.js": "/hundkojan/static/js/main.49a5f10a.chunk.js",
+    "main.js.map": "/hundkojan/static/js/main.49a5f10a.chunk.js.map",
     "runtime-main.js": "/hundkojan/static/js/runtime-main.3db926c7.js",
     "runtime-main.js.map": "/hundkojan/static/js/runtime-main.3db926c7.js.map",
     "static/js/2.c243ffbc.chunk.js": "/hundkojan/static/js/2.c243ffbc.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.3db926c7.js",
     "static/js/2.c243ffbc.chunk.js",
     "static/css/main.ead95135.chunk.css",
-    "static/js/main.0e75051e.chunk.js"
+    "static/js/main.49a5f10a.chunk.js"
   ]
 }
