@@ -1,4 +1,4 @@
-# School project in React, I made an app for a daycare for dogs.
+# School project built with React, I made an app for a daycare for dogs.
 
 ## The app is deployed and live on [GitHub Pages](https://emmeline-mutka.github.io/hundkojan/#/).
 
